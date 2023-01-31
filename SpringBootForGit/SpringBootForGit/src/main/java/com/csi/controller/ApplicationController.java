@@ -17,4 +17,12 @@ public class ApplicationController {
     public  String address(){
         return "CSI | PUNE | MH | INDIA";
     }
+
+    @GetMapping("/services")
+    public  String sayServices(){
+        return "software development";
+    }
 }
+
+
+
