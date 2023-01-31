@@ -22,6 +22,11 @@ public class ApplicationController {
     public  String sayServices(){
         return "software development";
     }
+
+    @GetMapping("/loan")
+    public  String loanElibility(){
+        return "eligible for loan";
+    }
 }
 
 
